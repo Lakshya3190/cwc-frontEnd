@@ -1,0 +1,3 @@
+#282c34 - Dark Blue
+
+#61dafb - Light Blue

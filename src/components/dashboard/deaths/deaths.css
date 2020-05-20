@@ -1,0 +1,95 @@
+.g1{
+    background-color: #61dafb;
+}
+
+h1{
+    color: white;
+}
+
+.plots{
+    background-color: black;
+    display: grid;
+    grid-template-columns: [first] 50% 50% [fourth];
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "header header"
+    "home home"
+    "total1 total2"
+    "total3 total4"
+    "total5 total5"
+    "g1  g2"
+    "g3 g3"
+    "g4 g4"
+    "g5 .";
+}
+
+.head{
+    grid-area: header;
+    padding: 10px;
+}
+
+.total{
+    grid-area: total;
+    padding: 10px;
+}
+
+.g1{
+    background-color: #61dafb;
+    grid-area: g1;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+
+}
+
+.g2{
+    background-color: #61dafb;
+    grid-area: g2;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.total2{
+    grid-area: total2;
+    background-color: crimson;
+}
+
+.total1{
+    grid-area: total1;
+    background-color: coral;
+}
+
+.total3{
+    grid-area: total3;
+    background-color: darkseagreen;
+}
+
+.total4{
+    grid-area: total4;
+    background-color: rgb(251, 122, 82);
+}
+
+.total5{
+    grid-area: total5;
+    background-color: rgb(70, 243, 231);
+}
+
+.g3{
+    grid-area: g3;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.g4{
+    grid-area: g4;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.g5{
+    grid-area: g5;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.home{
+    grid-area: home;
+}

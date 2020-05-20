@@ -1,0 +1,22 @@
+.page{
+    background-color: aliceblue;
+    margin: 40px;
+
+}
+
+.db-head{
+    color: black;
+}
+.menu-option{
+    background-color: #61dafb;
+    color: #282c34;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+
